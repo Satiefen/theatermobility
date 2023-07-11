@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://Satiefen.github.io/theatermobility/recording1/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "recording1" ] },
+    "homepage": [
+      {
+        "id": "https://av.tib.eu/media/11834",
+        "type": "Text",
+        "label": { "en": [ "recording1" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://av.tib.eu/",
+        "type": "Agent",
+        "label": { "en": [ "IWF (Göttingen), Technische Informationsbibliothek (TIB)" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://Satiefen.github.io/theatermobility/recording1/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 450.0,
+        "items": [
+          {
+            "id": "https://Satiefen.github.io/theatermobility/recording1/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://Satiefen.github.io/theatermobility/recording1/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://tib.flowcenter.de/mfc/medialink/3/dec2bc7047b1fa8134a6ee97ed1f46adc188adb5dcb67d0bd344d137859a25a1db/VTS_01_1.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 450.0
+                },
+                "target": "https://Satiefen.github.io/theatermobility/recording1/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
