@@ -23,6 +23,16 @@
         "id": "https://Satiefen.github.io/theatermobility/recording1/canvas-1/canvas",
         "type": "Canvas",
         "duration": 450.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://Satiefen.github.io/theatermobility/annotations/recording1-canvas-1-credits.json",
+            "label": {
+              "none": ["Credits"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://Satiefen.github.io/theatermobility/recording1/canvas-1/paintings",

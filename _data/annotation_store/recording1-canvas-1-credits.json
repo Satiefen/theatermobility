@@ -1,0 +1,30 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://Satiefen.github.io/theatermobility/annotations/recording1-canvas-1-credits.json",
+  "type": "AnnotationPage",
+  "label": "Credits",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "recording1-canvas-1-credits-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "IWF. Filmdokumente zur Zeitgeschichte. Heinz Hilpert. Göttingen 1961. Aus dem Institut für den Wissenschaftlichen Film Göttingen. Dr. H. Witthöft. Aufnahme: G. Bauch",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://Satiefen.github.io/theatermobility/recording1/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "0.0,24.0"
+        }
+      }
+    }
+  ]
+}
