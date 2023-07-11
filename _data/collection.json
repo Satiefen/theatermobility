@@ -1,0 +1,9 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/collection.json",
+    "type": "Collection",
+    "label": { "en": [ "Theater Mobility" ] },
+    "summary": { "en": [ "Annotations connected to theater mobility Poland and Austria" ] },
+    "items": [
+    ]
+}
